@@ -1,52 +1,52 @@
 @charset "urt-8";
-.section{overflow: hidden;font-family: 'Noto Sans KR', sans-serif;}
-.section_wrap{margin-top: -2px;}
-.section1{position: relative;background: url(../img/pattern01.jpg);}
-.section2{position: relative;background: url(../img/pattern02.jpg);}
-.section h3.title{font-family: 'SDSwaggerTTF';font-size: 40px;color: #264a4b;}
+.section{overflow:hidden;font-family:'Noto Sans KR', sans-serif}
+.section_wrap{margin-top:-2px}
+.section1{position:relative;background:url(../img/pattern01.jpg)}
+.section2{position:relative;background:url(../img/pattern02.jpg)}
+.section h3.title{font-family:'SDSwaggerTTF';font-size:40px;color:#264a4b}
 
-.section .section_box{padding: 50px 0;}
-.section1 .b_opacity{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #fff;opacity: 0;z-index: 60;transition: all 0.5s}
-.section1 .section_box .txt_box{position: absolute;width: 1000px;height: 50px;bottom: 10px;background: url(../img/album/bar.png)no-repeat 50%;}
-.section1 .section_box .txt_box p{font-family: 'SDSwaggerTTF';text-align: center;font-size: 20px;line-height: 50px;color: #555;}
-.travel_map{position: relative;height: 500px;margin: 30px 0;}
-.travel_map img{position: absolute;}
-.travel_map .map_effect{position: relative;z-index: 61}
-.travel_map .map_effect img{opacity: 0;cursor: pointer;transition: all 0.5s}
-.travel_map .map_effect img:hover{opacity: 1;}
-.travel_map .map_illu{width: 1000px;}
+.section .section_box{padding:50px 0}
+.section1 .b_opacity{position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;opacity:0;z-index:60;transition:all 0.5s}
+.section1 .section_box .txt_box{position:absolute;width:1000px;height:50px;bottom:10px;background:url(../img/album/bar.png)no-repeat 50%}
+.section1 .section_box .txt_box p{font-family:'SDSwaggerTTF';text-align:center;font-size:20px;line-height:50px;color:#555}
+.travel_map{position:relative;height:500px;margin:30px 0}
+.travel_map img{position:absolute}
+.travel_map .map_effect{position:relative;z-index:61}
+.travel_map .map_effect img{opacity:0;cursor:pointer;transition:all 0.5s}
+.travel_map .map_effect img:hover{opacity:1}
+.travel_map .map_illu{width:1000px}
 
-.map_effect .maps_taiwan{width: 10px;top: 220px;left: 405px;z-index: 63}
-.map_effect .maps_taiwan:hover{width: 20px;top: 200px;left: 395px;}
-.map_effect .maps_europe{width: 85px;top: 101px;left: 20px;cursor: pointer;}
-.map_effect .maps_europe:hover{width: 125px;top: 80px;left: 20px;cursor: pointer;}
-.map_effect .maps_vietnam{width: 25px;top: 242px;left: 350px;z-index: 64}
-.map_effect .maps_vietnam:hover{width: 40px;top: 220px;left: 340px;}
-.map_effect .maps_usa{width: 305px;top: 58px;left: 623px;}
-.map_effect .maps_usa:hover{width: 405px;top: 30px;left: 600px;}
-.map_effect .maps_canada{width: 232px;top: 67px;left: 719px;z-index: 64}
-.map_effect .maps_canada:hover{width: 332px;top: 40px;left: 680px;}
-.map_effect .maps_japan{width: 55px;top: 140px;left: 425px;z-index: 64}
-.map_effect .maps_japan:hover{width: 80px;top: 120px;left: 410px;}
-.map_effect .maps_china{width: 180px;top: 135px;left: 267px;}
-.map_effect .maps_china:hover{width: 250px;top: 100px;left: 230px;}
-.map_effect .maps_korea{width: 20px;top: 200px;left: 420px;z-index: 64}
-.map_effect .maps_korea:hover{width: 40px;top: 190px;left: 410px;}
+.map_effect .maps_taiwan{width:10px;top:220px;left:405px;z-index:63}
+.map_effect .maps_taiwan:hover{width:20px;top:200px;left:395px}
+.map_effect .maps_europe{width:85px;top:101px;left:20px;cursor:pointer}
+.map_effect .maps_europe:hover{width:125px;top:80px;left:20px;cursor:pointer}
+.map_effect .maps_vietnam{width:25px;top:242px;left:350px;z-index:64}
+.map_effect .maps_vietnam:hover{width:40px;top:220px;left:340px}
+.map_effect .maps_usa{width:305px;top:58px;left:623px}
+.map_effect .maps_usa:hover{width:405px;top:30px;left:600px}
+.map_effect .maps_canada{width:232px;top:67px;left:719px;z-index:64}
+.map_effect .maps_canada:hover{width:332px;top:40px;left:680px}
+.map_effect .maps_japan{width:55px;top:140px;left:425px;z-index:64}
+.map_effect .maps_japan:hover{width:80px;top:120px;left:410px}
+.map_effect .maps_china{width:180px;top:135px;left:267px}
+.map_effect .maps_china:hover{width:250px;top:100px;left:230px}
+.map_effect .maps_korea{width:20px;top:200px;left:420px;z-index:64}
+.map_effect .maps_korea:hover{width:40px;top:190px;left:410px}
 
-.map_effect .txt{position: absolute;width: 280px;height: 168px;padding: 10px;background: url(../img/black_80.png);font-size: 15px;line-height: 20px;color: #fff;opacity: 0;transition: all 0.5s}
-.map_effect .txt h5.sub{font-size: 1.1em;margin-bottom: 10px;font-weight: bold;}
-.map_effect .taiwan_txt{top: 220px;left: 430px;z-index: 63;background: url(../img/album/taiwan_bg.jpg)50%}
-.map_effect .europe_txt{top: 130px;left: 160px;cursor: pointer;background: url(../img/album/europe_bg.jpg)50%}
-.map_effect .vietnam_txt{top: 270px;left: 390px;z-index: 64;background: url(../img/album/vietnam_bg.jpg)50%}
-.map_effect .usa_txt{top: 160px;left: 450px;background: url(../img/album/usa_bg5.jpg)50%}
-.map_effect .canada_txt{top: 210px;left: 650px;background: url(../img/album/canada_bg3.jpg)50%}
-.map_effect .japan_txt{top: 150px;left: 500px;background: url(../img/album/japan_bg.jpg)50%}
-.map_effect .china_txt{top: 280px;left: 267px;background: url(../img/album/china_bg.jpg)50%}
-.map_effect .korea_txt{top: 200px;left: 450px;background: url(../img/album/korea_bg.jpg)50%}
+.map_effect .txt{position:absolute;width:280px;height:168px;padding:10px;background:url(../img/black_80.png);font-size:15px;line-height:20px;color:#fff;opacity:0;transition:all 0.5s}
+.map_effect .txt h5.sub{font-size:1.1em;margin-bottom:10px;font-weight:bold}
+.map_effect .taiwan_txt{top:220px;left:430px;z-index:63;background:url(../img/album/taiwan_bg.jpg)50%}
+.map_effect .europe_txt{top:130px;left:160px;cursor:pointer;background:url(../img/album/europe_bg.jpg)50%}
+.map_effect .vietnam_txt{top:270px;left:390px;z-index:64;background:url(../img/album/vietnam_bg.jpg)50%}
+.map_effect .usa_txt{top:160px;left:450px;background:url(../img/album/usa_bg5.jpg)50%}
+.map_effect .canada_txt{top:210px;left:650px;background:url(../img/album/canada_bg3.jpg)50%}
+.map_effect .japan_txt{top:150px;left:500px;background:url(../img/album/japan_bg.jpg)50%}
+.map_effect .china_txt{top:280px;left:267px;background:url(../img/album/china_bg.jpg)50%}
+.map_effect .korea_txt{top:200px;left:450px;background:url(../img/album/korea_bg.jpg)50%}
 
-.section_box .gallery_box{margin: 50px 0;}
-.section_box .gallery_box .bx-wrapper{border: 0;margin: 0;}
-.gallery_box ul#gallery{overflow: hidden;}
-.gallery_box ul#gallery>li{background: #000;cursor: pointer;}
-.gallery_box ul#gallery>li img{opacity: 0.5;}*/
+.section_box .gallery_box{margin:50px 0}
+.section_box .gallery_box .bx-wrapper{border:0;margin:0}
+.gallery_box ul#gallery{overflow:hidden}
+.gallery_box ul#gallery>li{background:#000;cursor:pointer}
+.gallery_box ul#gallery>li img{opacity:0.5}
 
