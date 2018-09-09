@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>header</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <script src="js/jquery-latest.min.js"></script>
+  <style>
+    #header{position: absolute;top: 0;left: 0;width: 100%;height: auto;background: url(img/black_50.png);z-index: 9999}
+    .gnb_area{max-width: 1000px;height: 50px;margin: auto;}
+    #gnb>li{float: left;width: 25%;height: 100%;text-align: center;}
+    #gnb>li a{display: inline-block;height: 100%;line-height: 50px;border-bottom: 3px solid transparent;font-family: 'NanumSquare', sans-serif;font-size: 20px;color: #eee;text-decoration: none;}
+    #gnb>li a:hover{border-bottom: 2px solid #d4ee79;}
+    .top_control{position: fixed;bottom: 20px;right: 20px;width: 40px;height: 40px;cursor: pointer;}
+    .top_control img{width: 100%;}
+  </style>
+  <script>
+  jQuery(function($){
+    top_control=$('.top_control');
+    top_control.click(function(){
+      $('html, body').animate({scrollTop:0},200)
+    })
+  })
+  </script>
+</head>
+<body>
+  <div id="wrap">
+    <div class="control">
+      <div class="top_control"><img src="img/top_scroll.png" onmouseover="this.src='img/top_scroll_hover.png'" onmouseout="this.src='img/top_scroll.png'" alt="최상위이동"></div>
+    </div>
+    <div id="header">
+      <div class="gnb_wrap">
+        <div class="gnb_area">
+          <ul id="gnb">
+            <li><a href="main.html">MAIN</a></li>
+            <li><a href="profile.html">PROFILE</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="album.html">ALBUM</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
