@@ -6,6 +6,6 @@ img{width: 100%;}
 .nav{max-width: 1280px;height: auto;margin:0 auto;}
 .nav img{width: 100%;}
 
-.inner_{max-width: 1000px;margin: auto;}
+.inner_{max-width: 1000px;padding: 0 20px;margin: auto;}
 .inner{max-width: 1280px;margin: auto;}
 /*common end*/
