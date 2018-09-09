@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+.login_wrap{max-width:1024px; margin:250px auto}
+.login_box{position:relative;padding:80px 30px 40px;width:50%;margin:auto;border:1px solid #23af10;border-radius:30px;font-family:'Jeju Gothic', serif;font-size:15px}
+.login_title h3{position:absolute;top:-5px;width:150px;padding:15px;border-bottom-left-radius:20px;border-bottom-right-radius:20px; background:#23af10;font-family:'Hanna', serif;font-size:25px;color:#fff;text-align:center}
+#loginForm{width:100%;margin:0 auto}
+#loginForm table{width:100%;margin:0 auto}
+#loginForm table th{width:30%}
+#loginForm table tr input{width:80%;height:30px;margin:15px 10px}
+.submit_box{position:relative; height:100px;overflow:hidden}
+.submit_box input[type="submit"]{position:absolute;right:57px;width:120px;height:40px;margin:10px 0 10px ;background:#2885c7;border:0;font-size:15px;line-height:40px;color:#fff}
+.submit_box input[type="submit"]:hover{background:#227ab9;cursor:pointer}
+.other_box{display:block;width:220px;height:auto;overflow:hidden;margin:80px auto 0}
+.other_box ul>li{float:left}
+.other_box ul>li::after{content:'|';margin:0 10px;color:#23af10}
+.other_box ul>li:last-child::after{display:none}
+.other_box ul>li a{font-family:'Nanum Gothic', serif;font-size:12px;color:#23af10}
