@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>신전떡볶이</title>
+  <link rel="short icon" href="img/sj_favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <script src="js/jquery-latest.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <div class="header_wrap">
+        <div class="header_top_area">
+          <div class="header_top inner">
+            <ul>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_bt_wrap">
+          <div class="header_bg"></div>
+          <div class="header_bottom_area">
+            <div class="header_bottom inner">
+              <h1 class="logo"><a href="#"><img src="img/sin_logo.png" alt="신전떡볶이"></a></h1>
+              <div id="gnb">
+                <ul>
+                  <li class="menu1">
+                    <div class="m_btn pc"><a href="#">신전떡볶이</a></div>
+                    <div class="m_btn m"><a href="#">신전떡볶이</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">CEO인사말</a></li>
+                      <li><a href="#">회사 연혁</a></li>
+                      <li><a href="#">CI · BI</a></li>
+                      <li><a href="#">인증서/등록증</a></li>
+                      <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu2">
+                    <div class="m_btn pc"><a href="#">메뉴</a></div>
+                    <div class="m_btn m"><a href="#">메뉴</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">떡볶이</a></li>
+                      <li><a href="#">튀김</a></li>
+                      <li><a href="#">라이스</a></li>
+                      <li><a href="#">기타</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu3">
+                    <div class="m_btn pc"><a href="#">HACCP인증</a></div>
+                    <div class="m_btn m"><a href="#">HACCP인증</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">HACCP란?</a></li>
+                      <li><a href="#">신전 HACCP 시스템</a></li>
+                      <li><a href="#">7원칙 12절차</a></li>
+                      <li><a href="#">신전양념 검사성적</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu4">
+                    <div class="m_btn pc"><a href="#">가맹점</a></div>
+                    <div class="m_btn m"><a href="#">가맹점</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">국내 가맹점</a></li>
+                      <li><a href="#">해외 가맹점</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu5">
+                    <div class="m_btn pc"><a href="#">프렌차이즈</a></div>
+                    <div class="m_btn m"><a href="#">프렌차이즈</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">신전의 약속</a></li>
+                      <li><a href="#">가맹개설 절차</a></li>
+                      <li><a href="#">일반형 인테리어</a></li>
+                      <li><a href="#">고급형 인테리어</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu6">
+                    <div class="m_btn pc"><a href="#">커뮤니티</a></div>
+                    <div class="m_btn m"><a href="#">커뮤니티</a></div>
+                    <ul class="m_btn2">
+                      <li><a href="#">공지사항</a></li>
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">신전VIDEO</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">고객의 소리</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="login_popup_wrap">
+          <div class="login_popup">
+            <div class="bg_black"></div>
+            <div class="login_box">
+              <h3 class="title">로그인</h3>
+              <form action="loginOk.php" method="post"  onclick="return false">
+                <table>
+                  <tr>
+                    <td><label for="userId">아이디</label></td>
+                    <td><input type="text" name="userId" id="userId"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="userPw">비밀번호</label></td>
+                    <td><input type="password" name="userPw" id="userPw"></td>
+                  </tr>
+                </table>
+                <div class="btn_box">
+                <input type="submit" value="로그인" id="login_ok">
+                <input type="button" value="취소" id="btn_close"></div>
+                <ul>
+                  <li><a href="#" onclick="return false"><p>아직 회원이 아니시라면 회원으로 가입 후 이용해 주십시오.</p><span>회원가입</span></a></li>
+                  <li><a href="#" onclick="return false"><p>회원아이디 및 비밀번호가 기억 안나실 때는 아이디/비밀번호 찾기를 이용하십시오.</p><span>아이디 / 비밀번호 찾기</span></a></li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div><!--#header-->
+    <div id="container">
+      <div class="main_nav">
+        <div class="nav_wrap"><iframe name="nav_video" width="1280" height="720" src="https://www.youtube.com/embed/L_dNPLvpCH4?wmode=opaque&rel=0&autoplay=0&loop=1&showinfo=0&modestbranding=0&disablekb=1&controls=1" frameborder="0" controls="no"allow="autoplay; encrypted-media" allowfullscreen width="1280px"></iframe></div>
+        <div class="nav_pt"></div>
+      </div>
+      <div class="main_contents">
+        <div class="contents_area">
+          <div class="section1 max_inner">
+            <div class="sys_wrap inner">
+              <div class="sys">
+                <div class="title_wrap">
+                  <div class="title_box">
+                    <h2 class="title">SINJEON FOOD SYS</h2>
+                    <p>PRESENTS</p>
+                  </div>
+                </div>
+                <div class="ul_line">
+                  <ul>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img1.jpg" alt></div>
+                      <div class="txt"><em>동종업종 최초 HACCP 인증</em><br>깨끗하고 믿을 수 있는 양념!</div>
+                    </a></li>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img2.jpg" alt></div>
+                      <div class="txt">떡볶이 프랜차이즈 업계에서 볼수 없는<em>HACCP인증을 받은 최첨단 위생시설</em><br></div>
+                    </a></li>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img3.jpg" alt></div>
+                      <div class="txt"><em>중독되는 매운맛!</em><br>다시 찾게 되는 매운맛!</div>
+                    </a></li>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img4.jpg" alt></div>
+                      <div class="txt"><em>최고의 매운 맛</em>을 위해<br>더욱 노력하겠습니다.</div>
+                    </a></li>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img5.jpg" alt></div>
+                      <div class="txt">본사<em>TEL. 053.423.6339</em><br>사무실<em>FAX. 053.424.6339</em><br><span>월 ~ 금 10:00 ~ 16:00 / 점심시간 : 12:00 ~ 13:30</span><span>주말, 공휴일 휴무</span></div>
+                    </a></li>
+                    <li><a href="#" onclick="return false">
+                      <div class="img"><img src="img/foodsys_img6.jpg" alt></div>
+                      <div class="txt"><em>체계적인 원재료를 공급!</em><br>2016년 한국산업의 구매안전지수 떡볶이전문점 1위</div>
+                    </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!--section1-->
+          <div class="section2 max_inner">
+            <div class="menu_wrap">
+              <div class="menu">
+                <div class="title_wrap">
+                  <div class="title_box">
+                    <h2 class="title">SINJEON MENU</h2>
+                    <p>신전떡볶이 메뉴</p>
+                    <p>중독되는 매운 맛! HOLIC SINFUS</p>
+                  </div>
+                </div>
+                <div class="menu_box">
+                  <ul>
+                    <li><a href="#"><img src="img/menu1.png" alt=""><span>떡볶이</span></a></li>
+                    <li><a href="#"><img src="img/menu4.png" alt=""><span>튀김오뎅</span></a></li>
+                    <li><a href="#"><img src="img/menu9.png" alt=""><span>신전김밥</span></a></li>
+                  </ul>
+                  <div class="arrow_box">
+                    <div class="arrow arrow_l"></div>
+                    <div class="arrow arrow_r"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--section2-->
+          <div class="section3">
+            <div class="store_wrap">
+              <div class="store max_inner">
+                <div class="title_wrap">
+                  <div class="title_box">
+                    <h2 class="title">PROMITION VIDEO</h2>
+                    <p>고객님과 가장 가까이 있는 매장을 찾아보세요!</p>
+                  </div>
+                </div>
+                <div class="store_box inner">
+                  <ul>
+                    <li><a href="#"><img src="img/store_img.jpg">
+                        <div class="txt">
+                          <p>진해 남문점</p>
+                          <span>055-545-1567</span>
+                        </div>
+                    </a></li>
+                    <li><a href="#"><img src="img/store_img.jpg">
+                        <div class="txt">
+                          <p>진해 남문점</p>
+                          <span>055-545-1567</span>
+                        </div>
+                    </a></li>
+                    <li><a href="#"><img src="img/store_img.jpg">
+                        <div class="txt">
+                          <p>진해 남문점</p>
+                          <span>055-545-1567</span>
+                        </div>
+                    </a></li>
+                  </ul>
+                  <button>MORE</button>
+                </div>
+              </div>
+            </div>
+          </div><!--section3-->
+          <div class="section4">
+            <div class="video_wrap">
+              <div class="video max_inner">
+                <div class="title_wrap">
+                  <div class="title_box">
+                    <h2 class="title">SINJEON MENU</h2>
+                    <p>신전 홍보 영상입니다.</p>
+                  </div>
+                </div>
+                <div class="video_box">
+                  <iframe width="818" height="459" src="https://www.youtube.com/embed/Gv90cnL2usU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div><!--section4-->
+        </div>
+      </div><!--main_contents-->
+      <div class="content_pt"></div>
+    </div><!--#container-->
+    <div id="footer">
+      <div class="footer_wrap">
+        <div class="footer_area inner">
+          <h1 class="f_logo"><img src="img/sin_logo_gray.png" alt="신전떡볶이"></h1>
+          <div class="txt">
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">신전떡볶이의 매력</a></li>
+              <li><a href="#">찾아오시는 길</a></li>
+            </ul>
+            <div class="info">
+              <ul>
+                <li>대구광역시 북구 칠성로 15길 6</li>
+                <li><em>사업자등록번호</em>504-22-36813</li>
+                <li><em>대표</em>하성호</li>
+                <li><em>TEL</em>053)423-6339</li>
+                <li><em>FAX</em>053)424-6339</li>
+                <li><em>E-mail</em>sinjeon@sinjeon.co.kr</li>
+              </ul>
+              <span>Copyright ⓒ SINFUS all rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--#footer--> 
+  </div>
+</body>
+</html>
