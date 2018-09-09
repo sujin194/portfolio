@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COFFEEBAY</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    
+    <!--header.html-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+    <script>
+      $(document).ready(function(){
+         $("#s_header").load("s_header.html","#s_header") ;
+      });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="s_header"></div>
+        <div class="login">
+            <div class="main_h">
+                <h2 class="title">로그인</h2>
+            </div>
+            
+            <!--step 01 -->
+            <div class="login_cont">
+                <p>커피베이를 방문해주셔서 감사합니다.<br>
+로그인하시면 커피베이의 다양한 서비스와 혜택을 누리실 수 있습니다.
+                </p>
+                
+                <div class="login_box">
+                    <div class="login_form">
+                        <p><span>아이디는 이메일주소</span>입니다.</p>
+                        <input type="text" name="login_id" id="login_id" style="text-indent: 15px;">
+                        <input type="password" name="login_pw" id="login_pw" style="text-indent: 15px;">
+                        <span class="id_save_box">
+                            <label for="id_save">아이디 저장</label>
+                            <input type="checkbox" name="id_save" id="id_save" value="id save">
+                        </span>
+                        <input type="button" value="로그인">
+                    </div>
+                    <div class="login_member">
+                        <div class="join_go">
+                            <b>아직 회원이 아니신가요?</b>
+                            <p>가입 후 다양한 서비스와 혜택을 제공 받으실 수 있습니다.</p>
+                            <input type="button" value="회원가입" onclick="location.href='join.html'">
+                        </div>
+                        <div class="forget_user">
+                            <b>회원정보를 잊으셨나요?</b>
+                            <p>아이디 또는 비밀번호 정보를 찾으실 수 있습니다.</p>
+                            <input type="button" value="아이디/비밀번호 찾기">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--step 02 -->
+            
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COFFEEBAY</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/ad_video.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-latest.min.js"></script>
+    <!--header.html-->
+    <script>
+      $(document).ready(function(){
+         $("#s_header").load("s_header.html","#s_header") ;
+      });   
+      $(document).ready(function(){
+         $("#footer").load("footer.html","#footer") ;
+      });    
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="s_header"></div>
+        <div class="page company_ad">
+            <div class="left_menu">
+                <div class="menu_name">
+                        커피베이
+                </div>
+                <div class="m_btm company">
+                    <ul>
+                        <li><a href="ad_video.html">커피베이 스토리</a></li>
+                        <li><a href="ad_video.html">아카데미</a></li>
+                        <li><a href="ad_video.html">광고영상</a></li>
+                        <li><a href="ad_video.html">지역별매장</a></li>
+                    </ul>
+                </div>
+            </div>
+           <div class="main_page">
+               <h2 class="title">광고영상</h2>
+               <div class="video_box">
+                    <div class="main">
+
+                        <iframe width="100%" height="520" src="https://youtube.com/embed/yJ0xb2V1szU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="sub sub1">
+                        <a href="#" onclick="return flase">
+                            <img src="./img/company/video_ad01.JPG" alt="">
+                            <span class="circle"><span class="play_btn"></span></span>
+                            <div class="cont">
+                                <h5>커피베이 광고</h5>
+                                <p>'태우지 않은 커피' : 종합편</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sub sub2">
+                        <a href="#" onclick="return flase">
+                            <img src="./img/company/video_ad01.JPG" alt="">
+                            <span class="circle"><span class="play_btn"></span></span>
+                            <div class="cont">
+                                <h5>커피베이 광고</h5>
+                                <p>'태우지 않은 커피' : 종합편</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sub sub3">
+                        <a href="#" onclick="return flase">
+                            <img src="./img/company/video_ad01.JPG" alt="">
+                            <span class="circle"><span class="play_btn"></span></span>
+                            <div class="cont">
+                                <h5>커피베이 광고</h5>
+                                <p>'태우지 않은 커피' : 종합편</p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+           </div>
+        </div>   
+        <div id="footer"></div>        
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COFFEEBAY</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app_index.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/app_coffeebay.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <div class="a_front_main">
+            <h1 class="logo">
+                <img src="img/logo_white.png" alt="">
+            </h1>
+            <input type="button" id="enter_btn" value="ENTER" >
+        </div>
+        <div class="a_main">
+            <div class="a_header">
+               <h1 class="header_logo">
+                   <img src="img/logo_white.png" alt="">
+               </h1>
+               <div class="hamburger">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+               </div>
+                <div class="a_gnb">
+                    <ul>
+                        <li><a href="#" onclick="return false">커피베이</a></li>
+                        <li><a href="#" onclick="return false">메뉴소개</a></li>
+                        <li><a href="#" onclick="return false">멤버십</a></li>
+                        <li><a href="#" onclick="return false">게시판</a></li>
+                    </ul>
+                </div>
+                <script>
+                    var ham=$('.hamburger');
+                    var a_header=$('.a_header');
+                    var a_gnb=$('.a_gnb');
+                    ham.hover(function(){
+                        a_gnb.animate({'right':'-1px'});
+                    },function(){
+                        a_gnb.animate({'right':'-100px'});
+                        
+                    });
+                    a_gnb.mouseover(function(){
+                        $(this).animate({'right':'-1px'});
+                    },function(){
+                        
+                        $(this).animate({'right':'-100px'});
+                    })
+                    
+                </script>
+            </div>
+            <div class="a_nav">
+                <img src="img/app/app_bg01.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

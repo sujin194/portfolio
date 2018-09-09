@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>COFFEEBAY</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/notice.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--header.html-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+    <script>
+      $(document).ready(function(){
+         $("#s_header").load("s_header.html","#s_header") ;
+      });   
+      $(document).ready(function(){
+         $("#footer").load("footer.html","#footer") ;
+      });    
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="s_header"></div>
+        <div class="page menu_info">
+            <div class="left_menu">
+                <div class="menu_name">
+                        게시판
+                </div>
+                <div class="m_btm product">
+                    <ul>
+                        <li><a href="#">커피베이 소식</a></li>
+                        <li><a href="#">언론 속 커피베이</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+           <div class="main_page">
+               <h2 class="title">커피베이 소식</h2>
+               <div class="search_box">
+                   <select name="userSearch" id="userSearch">
+                       <option value="title">제목</option>
+                       <option value="p">본문</option>
+                   </select>
+                   <input type="text" name="notice_box" id="notice_box" placeholder="제목 또는 내용을 입력하세요">
+                   <button>검색</button>
+                </div>
+                <div class="notice">
+                    
+                    <table>
+                       <caption>공시사항 목록</caption>
+                       <colgroup>
+                           <col style="width: 15%">
+                           <col>
+                           <col style="width: 20%">
+                       </colgroup>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>작성일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 미국 월마트 입점(E2 소액비자) 관련 세미나 초청</a></td>
+                                <td>2018-05-21</td>
+                            </tr>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">	커피베이, JTBC '밥 잘 사주는 예쁜 누나' 제작지원 성료</a></td>
+                                <td>2018-05-21</td>
+                            </tr>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 서포터즈 2기 발대식 진행</a></td>
+                                <td>2018-04-26</td>
+                            </tr>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 여름철 입맛 잡을 신메뉴 빙수 9종 출시</a></td>
+                                <td>2018-04-24</td>
+                            </tr>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 3년 연속 100대 프랜차이즈 선정!</a></td>
+                                <td>2018-03-27</td>
+                            </tr>
+                            <tr>
+                                <td><span class="notice_icon">공지</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 우수 프랜차이즈 5년 연속 수상·1등급 인증</a></td>
+                                <td>2017-12-22</td>
+                            </tr>
+                            <tr>
+                                <td><span>134</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 한국프랜차이즈대상 6년 연속 수상!</a></td>
+                                <td>2017-12-07</td>
+                            </tr>
+                            <tr>
+                                <td><span>133</span></td>
+                                <td><a href="#" onclick="return false">	커피베이, 제6회 인천·경기 프랜차이즈 창업 박람회 참가</a></td>
+                                <td>2017-05-02</td>
+                            </tr>
+                            <tr>
+                                <td><span>132</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 공식 서포터즈 2기 모집</a></td>
+                                <td>2017-04-09</td>
+                            </tr>
+                            <tr>
+                                <td><span>131</span></td>
+                                <td><a href="#" onclick="return false">커피베이, 서포터즈 1기 발대식 진행</a></td>
+                                <td>2017-04-26</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="notice_pagging_box">
+                        <a href="#" onclick="return false"class="pagging_on">1</a>
+                        <a href="#" onclick="return false">2</a>
+                        <a href="#" onclick="return false">3</a>
+                        <a href="#" onclick="return false">4</a>
+                        <a href="#" onclick="return false">5</a>
+                        <a href="#" onclick="return false">6</a>
+                        <a href="#" onclick="return false">7</a>
+                        <a href="#" onclick="return false">8</a>
+                        <a href="#" onclick="return false">9</a>
+                        <a href="#" onclick="return false">10</a>
+                        <div class="arrow">
+                          <a href="#" onclick="return false" class="pagging_next">></a>
+                          <a href="#" onclick="return false" class="pagging_last">>></a>
+                        </div>
+                    </div>
+                    <script>
+                      pagging_num=$('.notice_pagging_box>a');
+                      arrow_next=$('.arrow pagging_next');
+                      arrow_last=$('.arrow pagging_last');
+                      pagging_num.click(function(){
+                        idx=$(this).index($(this));
+                        $(this).eq(idx).addClass('pagging_on').siblings().removeClass('pagging_on');
+                      })
+                    </script>
+                </div>
+           </div>
+        </div>   
+    </div>
+    <div id="footer"></div>       
+</body>
+</html>
