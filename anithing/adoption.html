@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Anithing::입양하기</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon_hand_Y.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/adoption.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $("#header").load("header.html","#header") ;
+         $("#footer").load("footer.html","#footer") ;
+      });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+       <div id="header"></div>
+       <div class="adoption">
+          <div class="title_wrap">
+              <div class="title_line">
+                <h2 class="title">입양하기</h2>
+                <p>누구든지 돈을 주고 동물을 산다면 그 이면에는 죽을때까지 고통 받아야 하는 또 다른 생명들이 존재해야 하는 것을 기억해 주세요.</p>
+              </div>
+          </div>
+          <div class="adop_nav">
+            <div class="adop_area">
+              <div class="nav_img_wrap">
+                <div class="nav_img">
+                  <img src="img/adop_img.jpg" alt="입양하기"class="입양하세요">
+                </div>
+              </div>
+              <div class="nav_gnb">
+                <ul>
+                  <li class="txt_on">입양신청</li>
+                  <li>입양절차</li>
+                  <li>임시보호</li>
+                  <li>개인구조</li>
+                </ul>
+              </div>
+              <div class="nav_txt">
+                <div class="txt_area">
+                  <div class="txt1">
+                    <ul>
+                      <li>입양신청 시 카라 입양원칙에 동의 하셔야 합니다.</li>
+                      <li>[입양신청하기]게시판의 입양신청서를 제출해주셔야 등록이 됩니다.</li>
+                      <li>입양동의서를 꼼꼼히 확인해주시고 모든 항목들에 동의하신다면 입양신청서를 작성해주세요.</li>
+                      <li>맞음비는 유기동물 치료비, 동물보호소 후원금으로 전액 사용됩니다.</li>
+                    </ul>
+                    <button>입양신청가기</button>
+                 </div>
+                 <div class="txt2">
+                    <img src="img/adoption.png" alt="입양절차">
+                    <button>입양신청가기</button>
+                 </div>
+                 <div class="txt3">
+                    <p>아직 입양이 망설여지시거나 기존에 있던 동물과의 관계가 걱정이 되신다면 임시보호를 신청해보세요.</p>
+                    <br>
+                    <p>입양 담당자와의 지속적인 상담 후 입양을 결정하셔도 좋습니다.
+또한 사람을 경계하거나 사설보호소에서 구조된 동물은 임시보호가정에서의 보살핌이 추후 입양에 긍정적인 영향을 가져올 수 있습니다.
+몸과 마음에 상처 입은 동물들이 가정에서 따뜻한 보살핌을 받고 상처가 치유되기도 합니다.</p>
+                    <button>임시보호 신청가기</button>
+                 </div>
+                 <div class="txt4">
+                    <p>단체에서 구조한 동물들 외에도 개인이 구조하여 보호하고 있는 유기동물들도 가족을 기다리고 있습니다.</p>
+                    <br>
+                    <p>단체에 신청서를 제출하신 분 중 선별하여 개인구조 공간에 정보를 게시하고 있으며, 개인구조의 입양절차와 신청은 단체의 기준과 다릅니다.
+게시글 내의 구조자와 직접 상담하여 입양을 결정하시면 됩니다. 유기동물 입양홍보가 필요하신 분은 ‘입양홍보신청서’를 작성해주세요.</p>
+                    <button>개인구조 게시판가기</button>
+                 </div>
+                </div>
+              </div>  
+            </div>
+            </div>
+       </div>
+       <div id="footer"></div>
+    </div>
+    <script>
+      nav_gnb=$('.nav_gnb ul li');
+      txt_area=$('.txt_area>div');
+      
+      nav_gnb.click(function(){
+        idx=nav_gnb.index($(this));
+        console.log(idx);
+        nav_gnb.eq(idx).addClass('txt_on').siblings().removeClass('txt_on');
+        txt_area.eq(idx).css({display:'block'}).siblings().css({display:'none'})
+      })
+    </script>
+</body>
+</html>
