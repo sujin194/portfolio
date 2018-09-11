@@ -5,7 +5,7 @@
 
 .section_area .section1{}
 .section1 .section_box img{width:100%}
-.section1 .section_box .txt{position:absolute;top:35%;right:12%;width:45%;height:45%;font-size:15px;line-height:20px;font-family:'NanumSquare', sans-serif;color:#555;overflow:hidden;text-overflow:ellipsis}
+.section1 .section_box .txt{position:absolute;top:35%;right:15%;width:41%;height:45%;font-size:15px;line-height:20px;font-family:'NanumSquare', sans-serif;color:#555;overflow:hidden;text-overflow:ellipsis}
 .section1 .section_box .txt b{font-size:1.2em;font-weight:700}
 .section1 .section_box .txt em{font-size:1.2em;font-weight:700}
 
